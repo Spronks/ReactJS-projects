@@ -14,7 +14,7 @@ function Footer() {
         <LinkedInIcon />
         <TwitterIcon />
       </div>
-      <p> &copy; 2022 IndianFoodCorner.com</p>
+      <p> &copy; 2022 Indian Food Corner.com</p>
     </div>
   );
 }
