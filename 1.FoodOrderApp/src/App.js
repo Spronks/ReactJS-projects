@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Menu from "./pages/Menu";
@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/menu" exact component={Menu} />
-          <Route path="/about" exact component={About} />
-          <Route path="/contact" exact component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </Router>
     </div>
