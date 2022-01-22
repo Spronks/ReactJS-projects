@@ -6,7 +6,7 @@ As the title suggests, I'll be posting here all the projects I create with React
 
 - Better understanding of React.
 - More hands-on(practical) experience.
-- Learn/Work/Experiment with related libraries/frameworks like Redux, NextJS, etc.
+- Learn/Experiment with related libraries/frameworks like Redux, NextJS, etc.
 - Get more familiar with the workflow of Git/Github.
 
 ## Projects:
@@ -19,3 +19,7 @@ Using React & React Router we make a static, multi-page food ordering website.
 
 A weather app with a search bar for selecting a city and returns useful weather data like temperature, wind plus a weather icon.
 The data are fetched from the Open Weather Map API(https://openweathermap.org/).
+
+### 3. Recipes
+
+A recipes app with a search bar for selecting an ingredient, a drop-down menu for food preferences(vegan, low-sugar etc.) and it returns us a number of recipes tiled in two columns with an image and a title. The images are clickable, open a new window and transfer us to the relative recipe's page.

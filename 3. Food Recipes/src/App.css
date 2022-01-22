@@ -25,6 +25,7 @@
   max-width: 100vw;
   font-size: 17px;
   border-radius: 8px;
+  border: 2px solid orange;
 }
 
 .app__submit {
