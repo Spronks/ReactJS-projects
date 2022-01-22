@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import Axios from "axios";
+import Recipe from "./components/Recipe";
 
 function App() {
   const APP_ID = "c9b741ec";
@@ -90,6 +91,11 @@ function App() {
         </select>
         <input type="submit" value="Get Recipe" className="app__submit" />
       </form>
+      <div className="app__recipes">
+        {recipes.map((recipe) => {
+          return <Recipe recipe={recipe} />;
+        })}
+      </div>
     </div>
   );
 }
