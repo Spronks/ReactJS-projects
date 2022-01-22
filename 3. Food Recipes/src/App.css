@@ -42,3 +42,15 @@
   background: #fff;
   color: green;
 }
+
+.app__healthLabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.app__healthLabels:hover {
+  background: #afa6a6;
+}
