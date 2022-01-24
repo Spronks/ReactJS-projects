@@ -31,4 +31,5 @@ A Tesla site clone using React, React-Reveal, Redux, MaterialUI and Styled-Compo
 ### 5. Huddle
 
 Huddle landing page with curved sections, a challenge from FrontendMentor:
-https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2
+https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2.
+For styling we used Styled Components.
