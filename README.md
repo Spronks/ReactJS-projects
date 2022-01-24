@@ -23,3 +23,7 @@ The data are fetched from the Open Weather Map API(https://openweathermap.org/).
 ### 3. Recipes
 
 A recipes app with a search bar for selecting an ingredient, a drop-down menu for food preferences(vegan, low-sugar etc.) and it returns us a number of recipes tiled in two columns with an image and a title. The images are clickable, open a new window and transfer us to the relative recipe's page.
+
+### 4. Tesla clone
+
+A Tesla site clone using React, React-Reveal, Redux, MaterialUI and Styled-Components.
