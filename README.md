@@ -28,8 +28,9 @@ A recipes app with a search bar for selecting an ingredient, a drop-down menu fo
 
 A Tesla site clone using React, React-Reveal, Redux, MaterialUI and Styled-Components.
 
-### 5. Huddle
+### 5. Practice with Styled Components - Huddle
 
 Huddle landing page with curved sections, a challenge from FrontendMentor:
 https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2.
-For styling we used Styled Components.
+
+### 6. Practice with Material UI
