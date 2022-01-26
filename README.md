@@ -34,3 +34,5 @@ Huddle landing page with curved sections, a challenge from FrontendMentor:
 https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2.
 
 ### 6. Practice with Material UI
+
+Using MaterialUI to create a photo album page.
