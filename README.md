@@ -36,3 +36,7 @@ https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-section
 ### 6. Practice with Material UI
 
 Using MaterialUI to create a photo album page.
+
+### 7. Practice with Typescript
+
+Make an advanced Task Tracker, with a form to enter a task. The tasks are separated in two categories-active and completed, with edit and delete functionality on each task, and a drag n drop feauture between the two categories.
