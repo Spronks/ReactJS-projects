@@ -40,3 +40,7 @@ Using MaterialUI to create a photo album page.
 ### 7. Practice with Typescript
 
 Make an advanced Task Tracker, with a form to enter a task. The tasks are separated in two categories-active and completed, with edit and delete functionality on each task, and a drag n drop feauture between the two categories.
+
+### 8. Testing with Cypress
+
+We use Cypress to make Unit, Integration and End-to-End Tests to a real React-app which the cypress team has made.
