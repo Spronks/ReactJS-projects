@@ -1,4 +1,5 @@
 import Typical from "react-typical";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -6,24 +7,26 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://google.com" target="_blank" rel="noreferrer">
-              <i className="fa fa-google-plus-square"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer">
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
-              <i className="fa fa-twitter"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="https://google.com" target="_blank" rel="noreferrer">
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noreferrer">
+                <i className="fa fa-youtube-square"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noreferrer">
+                <i className="fa fa-twitter"></i>
+              </a>
+            </div>
           </div>
 
-          <div className="profile-detailes-name">
+          <div className="profile-details-name">
             <span className="primary-text">
               {" "}
               Hello, I'M <span className="highlighted-text">Ehiedu</span>
@@ -56,7 +59,7 @@ export default function Profile() {
               </span>
             </span>
           </div>
-          <div className="profile-optins">
+          <div className="profile-options">
             <button className="btn primary-btn">
               {""}
               Hire Me{" "}
@@ -65,6 +68,9 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
