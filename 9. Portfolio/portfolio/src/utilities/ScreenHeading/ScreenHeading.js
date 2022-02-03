@@ -1,3 +1,5 @@
+import "./ScreenHeading.css";
+
 export default function ScreenHeading(props) {
   return (
     <div className="heading-container">
