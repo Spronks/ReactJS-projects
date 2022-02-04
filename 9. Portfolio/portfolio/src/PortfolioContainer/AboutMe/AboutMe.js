@@ -6,8 +6,8 @@ import "./AboutMe.css";
 
 export default function AboutMe(props) {
   let fadeInScreenHandler = (screen) => {
-    if (screen.fadeScreen !== props.id) return;
-    Animations.animations.fadeInScreen(props.id);
+    if (screen.fadeScreen !== props.id)
+      return Animations.animations.fadeInScreen(props.id);
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
@@ -31,9 +31,8 @@ export default function AboutMe(props) {
   const renderHighlight = () => {
     return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>
-        <div className="highlight-blob">
-          <span>{value}</span>
-        </div>
+        <div className="highlight-blob"></div>
+        <span>{value}</span>
       </div>
     ));
   };
